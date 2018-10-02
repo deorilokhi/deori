@@ -23,5 +23,7 @@ output application/java
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="0086b40e-aec5-4bd9-9798-5c27927a83ca" message="#[payload]"/>
 		<logger level="INFO" doc:name="Logger" doc:id="c68673a8-b8fc-462a-83f3-de26bd414926" />
+		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="b2099be3-c830-4b9c-a708-c0233fae2887" />
+		<flow-ref doc:name="Flow Reference" doc:id="8a216e42-839e-4001-889b-08705d194598" />
 	</flow>
 </mule>
