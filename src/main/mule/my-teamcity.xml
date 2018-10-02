@@ -26,4 +26,7 @@ output application/java
 		<flow-ref doc:name="Flow Reference" doc:id="8a216e42-839e-4001-889b-08705d194598" />
 		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="b2099be3-c830-4b9c-a708-c0233fae2887" />
 	</flow>
+	<flow name="my-teamcityFlow1" doc:id="dec8243d-2f4d-4f13-b63a-aa9d268552b5" >
+		<http:listener doc:name="Listener" doc:id="6db725c1-b1c7-47d1-8d3a-0cdeac34f73a" />
+	</flow>
 </mule>
